@@ -393,6 +393,12 @@ h2 {
 
 }
 
+@media screen and (min-width:280px) and (max-width:338px){
+    .card{
+        height:440px;
+    }
+}
+
 @media (max-width:280px) {
     .card {
         height: 550px
