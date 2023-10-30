@@ -283,41 +283,31 @@ h2 {
     margin: 0
 }
 
-.form-content {
-    font-size: 18px;
 
-}
 
-.email {
-    border-radius: 50px;
-    box-shadow: 2px 4px 10px rgba(0, 0, 0, .2);
-    max-width: 300px;
-    overflow: hidden;
-    padding: 0 16px;
-    position: absolute;
-    top: 0;
-}
-
-.submit-email {
-    position: absolute;
-    width: 70px;
-    height: 25px;
-    font-size: 14px;
-    cursor: pointer;
-    right: 0;
-    top: 0;
-    transition: width .35s ease-in-out, background .35s ease-in-out;
-    width: 80px;
-    border-radius: 20px;
-}
-
-.subscription {
+.form-content{
+    width: 400px;
+    max-width: 100%;
     position: relative;
-    height: 100%;
-    width: 100%;
 }
 
-
+.form-content input{
+    background: rgba(255,255,255,0.3);
+    /* border: 2px solid white; */
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    width: 100%;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, .2);
+}
+.form-content button{
+    border-radius: 50px;
+    aspect-ratio: 1;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    right: 5px;
+    cursor: pointer;
+}
 
 
 
