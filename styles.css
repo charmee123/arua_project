@@ -65,6 +65,7 @@ body {
 
 .menu-list li {
     list-style: none;
+    padding: 10px 15px;
 }
 
 .menu-list li a {
@@ -81,16 +82,19 @@ body {
 }
 .btn-nav {
     border-radius: 20px;
-    background-color: #007bff;;
-}
-
-
-.btn-nav {
+    background-color: #007bff;
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
     color: #fff;
     font-weight: 500;
+    padding: 5px 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
+
+
 .icon{
     color: #fff;
     font-size: 20px;
@@ -103,8 +107,6 @@ body {
     right: 30px;
     top: 20px;
 }
-
-
 
 /*top-container*/
 
@@ -247,7 +249,7 @@ h2 {
 }
 
 .card {
-    height: 360 px;
+    height: 360px;
 }
 
 
@@ -324,9 +326,9 @@ h2 {
         margin-bottom: 30px
     }
 
-    .resources {
+    /* .resources {
         margin-top: 10px;
-    }
+    } */
 }
 
 @media (max-width:767px) {
