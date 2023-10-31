@@ -172,10 +172,10 @@ body {
     margin-bottom: 5rem;
 
 }
-/* #info img{
+#info img{
     height: 347px;
-    width: 500px;
-} */
+    width: 550px;
+}
 
 #info h2 {
     font-size: 45px;
@@ -440,11 +440,11 @@ h2 {
     .nav-content {
         padding: 0 40px;
     }
-    /* #info .img-fluid{
-        height: 200px;
+    #info .img-fluid{
+        height: 220px;
         width:300px;
         
-    } */
+    }
 }
 
 @media (max-width: 900px) {
