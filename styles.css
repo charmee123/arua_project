@@ -112,6 +112,7 @@ body {
 
 #title {
     background-color: #541554;
+    padding-bottom: 5rem;
 }
 
 #title .container {
@@ -119,7 +120,7 @@ body {
 }
 
 #info .container-fluid {
-    padding: 3%;
+    padding: 5rem;
 }
 
 #title h2 {
@@ -140,13 +141,14 @@ body {
 }
 
 .title-image {
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 330px;
     position: relative;
     float: right;
     /* right: 10%;
     margin: 5px; */
-    border-radius: 50%;
+    border-radius: 5%;
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem #F4EDE4);
 }
 
 .content {
@@ -162,13 +164,17 @@ body {
 }
 
 #info .container-fluid {
-    padding-top: 5rem;
+    padding-top: 8%;
 }
 
 #info .row {
     text-align: left;
     margin-bottom: 5rem;
 
+}
+#info img{
+    height: 347px;
+    width: 580px;
 }
 
 #info h2 {
@@ -251,6 +257,7 @@ h2 {
 
 .card {
     height: auto;
+    filter: drop-shadow(0.1rem 0.1rem 0.2rem #fff);
 }
 
 
